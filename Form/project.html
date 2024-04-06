@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAIL DYNAMIQUE</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<header>
+    <h2 class="pt">Portail dynamique </h2>
+    <nav class="navigation">
+        <button id="n1">Contact</button>
+        <button id="playVideoButton">Video </button>
+        <button id="viewPhotosButton">PHOTOS</button>
+        <button id="viewCVButton">CV</button>
+        
+    </nav>
+</header>
+<body>
+    <div id="modalContact" class="modal">
+
+        <div class="modal-content">
+
+            <span class="close">&times;</span> 
+
+            <h2>formulaire</h2>
+
+            <form>
+                
+
+                <label for="nom">Nom :</label>
+                <input type="text"><br>
+
+                
+                <label for="nom">Prenom :</label>
+                <input type="text"><br>
+                
+                
+                <label for="nom">E-mail :</label>
+                <input type="text"><br>
+                
+                
+                <label for="nom">Telephone :</label>
+                <input type="text"><br>
+                
+
+                <input type="submit"><br>
+
+            </form>
+        </div>
+    </div>
+
+
+    <div id="videoModal" class="modaal">
+        <div class="modaal-content">
+            <span class="closee" onclick="closeVideoModal()">&times;</span>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VHygTMF98Rw" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+
+    <div id="photoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePhotoModal()">&times;</span>
+            <img src="R.jpeg" alt="">
+           
+        </div>
+    </div>
+
+
+
+    <div id="cvModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCVModal()">&times;</span>
+            <embed src="cvhmd.pdf" type="application/pdf" width="100%" height="600px">
+        </div>
+    </div>
+
+
+    
+
+
+   
+    
+    
+
+
+
+
+
+
+
+
+    </body>
+
+    </html>
+
+
+    <script src="project.js"></script>

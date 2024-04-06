@@ -1,0 +1,19 @@
+body{
+    color: midnightblue;
+    text-align: center;
+}
+form{
+    width: 40%;
+    height: 200px;
+    margin-top: 150px;
+    font-size: larger;
+    margin-left: 10px;
+}
+button{
+    background-color: grey;
+    color: midnightblue;
+}
+input:hover{
+    background-color:grey;
+    color: rgb(46, 15, 200);
+}
